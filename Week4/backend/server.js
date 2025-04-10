@@ -5,7 +5,7 @@ const PORT = 5000;
 app.use(express.json());
 
 app.get('/', (req, res) => {
-    res.json({ message: "Hi, I am VISHNU, and this is my Week 4 assignment!" });
+    res.json({ message: "Hi, I am Rajat , and this is my Week 4 assignment!" });
 });
 
 app.get('/welcome', (req, res) => {
